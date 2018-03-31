@@ -15,9 +15,9 @@ public class SingleTransposition {
             for (int j = 0; j < str1.length(); j++) {
                 if(str1.substring(i,i+1).equals(str2.substring(j, j+1))) {
                     temp += str1.substring(i,i+1);
-                break;
+                    break;
                 }
-                }
+            }
         }
         return str1.equals(temp) ? true : false;
     }
