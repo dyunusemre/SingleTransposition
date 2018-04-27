@@ -5,7 +5,7 @@ public class SingleTransposition {
         if(str1.length() == str2.length() 
             && letterTypeMatches(str1,str2)
             && fixPosition(str1,str2)) {
-                str1 = str2;
+                str1 = str2; // commet from mine
         }
         return str1;
     }
